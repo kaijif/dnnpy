@@ -7,7 +7,7 @@ app = flask.Flask(__name__)
 
 balls = []
 
-threading.Thread(run_network, (global_balls,))
+threading.Thread(run_network, (balls,))
 
 
 @app.route('/balls')
