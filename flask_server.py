@@ -1,5 +1,5 @@
 import flask
-import concurrent
+import concurrent.futures
 
 from yolo import run_network
 
